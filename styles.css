@@ -1,0 +1,175 @@
+
+
+@media (prefers-reduced-motion: no-preference){
+    * {
+    scroll-behavior: smooth;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    color: white; 
+    font-size: 28px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+        background-color: #101010;
+        padding: 0px; 
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: -20px auto 0 auto;
+    border: solid; 
+    border-top: 0px;
+    border-radius: 10px;
+}
+
+ul {
+    margin-top: 0px;
+    margin-left :auto;
+    margin-right: auto;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    max-width: 800px;
+    min-width:595px;
+}
+
+li > a {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+nav {
+    width: 100%;
+    min-width: 50%;
+    padding-top: 10px;
+    position: sticky;
+    top: 7px;
+    border: solid;
+    background-color: #101010;
+    border-radius: 10px;
+}
+
+#title {
+    max-width: 40%;
+    min-width: 100px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 20%;
+    }
+
+#image {
+    max-width: 100%;
+    margin: 0 auto;
+     display: block;
+}
+
+span {
+   display: block; 
+   text-align: right;
+   padding: 10px 10px 0 10px;
+}
+
+.extra {
+    width: 100%;
+    min-width: 595px;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;    
+}
+
+figure {
+    width: 25%;
+    margin: 0px;
+    padding: 10px;
+ }
+
+ .header h3 {
+     font-size: 38px;
+ }
+
+ #img-caption h1 {
+     font-size: 2em;
+     letter-spacing: 5px;
+ }
+
+ figure img {
+     width: 100%;
+     border-radius: 10px;
+ }
+
+ figcaption {
+     width: 100%;
+ }
+
+figcaption { 
+    text-align: center;
+    font-size: 1rem; 
+    padding: 4px;
+}
+
+.body {
+    max-width: 630px;
+    min-width: 595px;
+    margin: 0 auto;
+    text-align: justify;        
+}
+
+.body-border {
+     background-color: #202020;
+     border-radius: 20px;
+     padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+}
+
+a:hover {
+    color: grey;
+}
+
+a:active {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    margin: 1.5rem auto;
+    font-size: 1.5rem;
+}
+
+#biography {
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.hack {
+    position: absolute; 
+    top: -130px;
+}
+
+.hack-container {
+    position: relative;
+}
+
+@media screen and (max-width: 1200px) {
+    #title {
+        padding-top: 0px;
+        min-width: 60%;
+    }
+ }
